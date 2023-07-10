@@ -3,16 +3,18 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <Typewriter
+    <Typewriter 
+      
       options={{
         strings: [
-          "Welcome to Chat Room",
+          "Welcome to Chat Room!!-",
           "Sign In to chat with your fiends",
         
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
+        
       }}
     />
   );

@@ -30,14 +30,14 @@ const SignIn = () => {
     }
     return ( 
         <React.Fragment>
-              <div className='cover d-flex w-100 justify-content-center align-items-center'>
+              <div className='cover d-flex w-100 justify-content-center align-items-center flex-column'>
                
-                <div className='leftsection w-70 me-5'>
-                <h1>Chat Room</h1>
-                <Type/>
+                <div className='leftsection w-70  text-white'>
+                <h1 className='title' >Chat Room</h1>
+                <Type  className='type' />
                 </div>
 
-                <div className='rightsection d-flex w-30 ms-5'>
+                <div className='rightsection d-flex w-30 mt-5'>
                 <button class="btn btn-light" onClick={signInWithGoogle}>Sign in with Google</button>
 
                 </div>

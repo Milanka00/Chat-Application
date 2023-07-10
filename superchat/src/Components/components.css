@@ -7,3 +7,7 @@ background: linear-gradient(to left, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/
 
     
 }
+
+.title{
+    font-size: 60px;
+}
