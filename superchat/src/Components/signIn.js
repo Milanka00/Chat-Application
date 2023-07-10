@@ -35,9 +35,18 @@ const SignIn = () => {
                 <div className='leftsection w-70  text-white'>
                 <h1 className='title' >Chat Room</h1>
                 <Type  className='type' />
+
+                <div className='mt-2'>
+                <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Right%20Light%20Skin%20Tone.png" alt="Backhand Index Pointing Right Light Skin Tone" width="25" height="25" />
+                <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beaming%20Face%20with%20Smiling%20Eyes.png" alt="Beaming Face with Smiling Eyes" width="25" height="25" />
+                <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" alt="Beating Heart" width="25" height="25" />
+                <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Backhand%20Index%20Pointing%20Left%20Light%20Skin%20Tone.png" alt="Backhand Index Pointing Left Light Skin Tone" width="25" height="25" />
+
                 </div>
 
-                <div className='rightsection d-flex w-30 mt-5'>
+                </div>
+
+                <div className='rightsection d-flex w-30 mt-3'>
                 <button class="btn btn-light" onClick={signInWithGoogle}>Sign in with Google</button>
 
                 </div>

@@ -8,7 +8,7 @@ function Type() {
       options={{
         strings: [
           "Welcome to Chat Room!!-",
-          "Sign In to chat with your fiends",
+          "Sign In to chat with your friends",
         
         ],
         autoStart: true,
