@@ -2,6 +2,7 @@ import React from 'react';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
+import ChatMessage from './chatmsg';
 
 
 
@@ -28,6 +29,14 @@ const ChatRoom = () => {
   <React.Fragment>
   
     <button onClick={()=> auth.signOut()}>Sign out</button>
+
+    <div>
+      {messages &&  messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
+    </div>
+
+    <div>
+
+    </div>
     
 
   </React.Fragment>);
