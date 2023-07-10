@@ -3,6 +3,8 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 
+
+
 firebase.initializeApp({
   // Add your Firebase configuration here
   apiKey: "AIzaSyClgYloVUIsCsyVZZhZcGA4pGUF8IGzxdM",
@@ -24,7 +26,9 @@ const ChatRoom = () => {
 
   return (
   <React.Fragment>
-     <button onClick={()=> auth.signOut()}>Sign out</button>
+  
+    <button onClick={()=> auth.signOut()}>Sign out</button>
+    
 
   </React.Fragment>);
 };

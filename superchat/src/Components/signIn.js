@@ -4,6 +4,9 @@ import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 import {useAuthState} from 'react-firebase-hooks/auth';
 
+import './components.css'
+import Type from './type';
+
 firebase.initializeApp({
   // Add your Firebase configuration here
   apiKey: "AIzaSyClgYloVUIsCsyVZZhZcGA4pGUF8IGzxdM",
@@ -27,8 +30,23 @@ const SignIn = () => {
     }
     return ( 
         <React.Fragment>
+              <div className='cover d-flex w-100 justify-content-center align-items-center'>
+               
+                <div className='leftsection w-70 me-5'>
+                <h1>Chat Room</h1>
+                <Type/>
+                </div>
 
-            <button onClick={signInWithGoogle}>Sign in with Google</button>
+                <div className='rightsection d-flex w-30 ms-5'>
+                <button class="btn btn-light" onClick={signInWithGoogle}>Sign in with Google</button>
+
+                </div>
+                    
+        
+
+              </div>
+
+           
 
         </React.Fragment>
      );
