@@ -33,7 +33,7 @@ const SignIn = () => {
               <div className='cover d-flex w-100 justify-content-center align-items-center flex-column'>
                
                 <div className='leftsection w-70  text-white'>
-                <h1 className='title' >Chat Room</h1>
+                <h1 className='title' >Chat Room by Milanka</h1>
                 <Type  className='type' />
 
                 <div className='mt-2'>
