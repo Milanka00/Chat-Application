@@ -4,7 +4,8 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import ChatMessage from './chatmsg';
 
-import './chat.css'
+import './chat.css';
+import { VscSend } from "react-icons/vsc";
 
 
 
@@ -54,10 +55,10 @@ const ChatRoom = () => {
   return (
   <React.Fragment>
     <div className='d-flex flex-column align-items-start w-100 '>
-      <div className='bar w-100 p-2 d-flex justify-content-between '>
-        <div>  <p>Hi {userName} !!</p></div>
+      <div className='bar w-100 p-1  d-flex justify-content-between '>
+        <div>  <p>Signed in as:  {userName}</p></div>
         <div>      
-          <button className='btn btn-light mt-1'  onClick={()=> auth.signOut()}>Sign out</button>
+          <button className='btn btn-light mt-1 me-2'  onClick={()=> auth.signOut()}>Sign out</button>
         </div>
       
       </div>
@@ -72,7 +73,7 @@ const ChatRoom = () => {
         <form onSubmit={sendMessage}>
           <div className='bar p-3 d-flex w-100'>
           <input className='w-100 rounded me-2'  value={formValue} onChange={(e)=>setFormValue(e.target.value)}/>
-          <button  type="submit">Submit</button>
+          <button className='btn btn-light ' type="submit"><VscSend/></button>
           </div>
 
           

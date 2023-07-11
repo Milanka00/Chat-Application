@@ -26,7 +26,7 @@ const ChatMessage = (props) => {
         <React.Fragment>
            <div className={`message ${messageClass}`}>
 
-             <img src={photoURL} /> 
+             <img src={photoURL} alt='profile pic'/> 
             <p>{text}</p>
 
             </div>

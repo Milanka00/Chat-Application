@@ -6,7 +6,7 @@ import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 
 import {useAuthState} from 'react-firebase-hooks/auth';
-import {useCollectionData} from 'react-firebase-hooks/firestore'
+//import {useCollectionData} from 'react-firebase-hooks/firestore'
 import ChatRoom from './Components/chat';
 import SignIn from './Components/signIn';
 
@@ -20,7 +20,7 @@ firebase.initializeApp({
   measurementId: "G-F21YV6GCBB"
 })
 const auth = firebase.auth();
-const firestore=firebase.firestore();
+// const firestore=firebase.firestore();
 
 function App() {
 

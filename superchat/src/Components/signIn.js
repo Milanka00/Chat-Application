@@ -2,7 +2,7 @@ import React from 'react';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
-import {useAuthState} from 'react-firebase-hooks/auth';
+//import {useAuthState} from 'react-firebase-hooks/auth';
 
 import './components.css'
 import Type from './type';
@@ -20,7 +20,7 @@ firebase.initializeApp({
 });
 
 const auth = firebase.auth();
-const firestore=firebase.firestore();
+//const firestore=firebase.firestore();
 
 const SignIn = () => {
 
