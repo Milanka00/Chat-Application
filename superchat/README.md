@@ -3,6 +3,8 @@ see live demo: https://chatwithmilanka.netlify.app/
 
 ![Alt Text](image.png)
 
+reference links: https://youtu.be/q5J5ho7YUhA, https://youtu.be/zQyrwxMPm88
+
 
 ## Available Scripts
 
